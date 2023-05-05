@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Poppins:wght@100;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
