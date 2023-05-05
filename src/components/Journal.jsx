@@ -5,7 +5,7 @@ import JournalTempR from "./journal/JournalTempR";
 import JournalTempL from "./journal/JournalTempL";
 import img1 from "../assets/imgJournal/fligno.jpg";
 import img2 from "../assets/imgJournal/wow.jpg";
-import winner from "../assets/imgJournal/winner.png";
+import winner from "../assets/imgJournal/winner.jpg";
 import img4 from "../assets/imgJournal/game.png";
 
 const Journal = () => {
