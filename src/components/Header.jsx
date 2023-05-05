@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="flex flex-row w-full h-20 bg-secondary justify-between items-center px-20">
+    <div className="z-50 flex flex-row w-full h-20 bg-secondary justify-between items-center px-20">
       <h1 className="text-4xl font-bold cursor-pointer hover:drop-shadow">
         Jemuel M.
       </h1>

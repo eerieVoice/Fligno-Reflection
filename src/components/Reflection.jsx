@@ -2,12 +2,18 @@ import React from "react";
 
 function Reflection() {
   return (
-    <div className="w-full h-[91.6vh] flex flex-col items-center justify-center bg-secondary">
-      <div className="w-[80rem] h-[40rem] flex flex-row items-center justify-center m-10 rounded-sm shadow-lg shadow-primarydark">
-        <div className="font-extrabold text-7xl text-primarydark drop-shadow-2xl shadow-primary p-10">
+    <div className="w-full h-[91.6vh] flex flex-col items-center justify-center bg-secondary ">
+      <div className="2xl:w-[75rem] 2xl:h-[40rem] flex flex-row items-center justify-center m-10 rounded-sm shadow-lg shadow-primarydark lg:w-[60rem] lg:h-[30rem] md:w-[30rem] md:h-[20rem] sm:w-[30rem] sm:h-[15rem]">
+        <div
+          className="font-extrabold 2xl:text-7xl text-primarydark drop-shadow-2xl shadow-primary p-10
+        lg:text-4xl md:text-base sm:text-xs"
+        >
           Reflection
         </div>
-        <div className="p-10 text-2xl font-semibold text-justify">
+        <div
+          className="p-10 2xl:text-2xl font-semibold text-justify lg:text-base
+        md:text-xs sm:text-[5px] sm:p-10 sm:tracking-[-.075em]"
+        >
           The department in Algorand blockchain development involves designing
           and developing dApps that run on the Algorand blockchain. As an
           intern, the department benefited from my fresh perspective, and

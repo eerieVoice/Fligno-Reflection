@@ -17,13 +17,13 @@ const Home = () => {
     show: { opacity: 1, x: 0 },
   };
   return (
-    <div className="w-full h-[91vh] flex flex-row items-center justify-center">
-      <div className="w-[80rem] flex flex-row mt-8">
+    <div className="z-40 w-full h-[91vh] flex flex-row items-center justify-center">
+      <div className="z-30 w-[80rem] flex flex-row mt-8">
         <motion.div
           variants={container}
           initial="hidden"
           animate="show"
-          className="flex flex-col items-start justify-center gap-y-10 p-10 w-[40rem]"
+          className="z-20 flex flex-col items-start justify-center gap-y-10 p-10 w-[40rem]"
         >
           <motion.h1
             variants={item}
@@ -46,7 +46,7 @@ const Home = () => {
           </motion.p>
           <motion.p
             variants={item}
-            className="text-nani text-xl tracking-wider text-justify"
+            className="text-nani text-xl tracking-wider text-justify "
           >
             During my studies in Computer Engineering, I honed my practical
             abilities in both hardware and software, and as I gained more
@@ -54,15 +54,18 @@ const Home = () => {
             software development.
           </motion.p>
         </motion.div>
-        <div>
+        <div className="z-10">
           <motion.img
             drag
             initial={{ opacity: 0, x: "100vw" }}
-            animate={{ opacity: 1, x: 0 }}
+            animate={{
+              opacity: 1,
+              x: 0,
+            }}
             transition={{ duration: 1.5 }}
             src={FormalPortrait}
             alt="formal picture of myself"
-            className="w-[35rem] object-cover"
+            className="z-0 w-[60vh] h-full lg:w-[60vh] lg:h-max md:w-[40vh] md:h-max sm:w-[20vh] sm:h-max object-cover "
           />
         </div>
       </div>
